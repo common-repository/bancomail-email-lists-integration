@@ -1,0 +1,129 @@
+.bm_mask{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0, 0.8);
+	z-index:1000;
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.3s ease-out;
+}
+.bm_mask.on{
+	opacity:1;
+	visibility:visible;
+}
+#wpsc_checkout_list{
+	width:100%;
+	cellspacing:0;
+	cellpadding:0;
+}
+#bm_order_list tr.main:nth-child(even) {
+    background-color: #efefef;
+}
+
+#bm_order_list th{
+	font-weight:bold;
+	background-color:none:
+}
+#bm_order_list th:last-child{
+	text-align:center;
+}
+
+#bm_order_list td{
+	border-bottom:1px solid #f1f1f1;
+	min-height:40px;
+	vertical-align:middle;
+}
+td.url{
+	text-align:center;
+}
+
+/*paginator*/
+.paginator{
+	margin:20px 0 0 0;
+	padding:10px 0;
+	height:auto;
+	overflow:auto;
+	clear:both;
+}
+.paginator li{
+	display:inline-block;
+	margin:0 5px 20px 0;
+}
+
+.paginator li:first-child{
+	margin-left:0;
+}
+.paginator li a{
+	border:1px solid #ccc;
+	background:#fff;
+	padding:5px 10px;
+	text-decoration:none!important;
+}
+.paginator li a.active{
+	background:#333;
+	color:#fff;
+}
+
+#bm_ws_updateOrderStatus{
+
+	width:280px;
+	height:auto;
+	background:#fff;
+	padding:10px 10px 20px 10px;
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	transition:all 0.3s ease-out;
+	z-index:99999;
+	opacity:0;
+	visibility:hidden;
+}
+
+#bm_ws_updateOrderStatus.show{
+	opacity:1;
+	visibility:visible;
+}
+
+#bm_ws_updateOrderStatus select{
+	width:100%;
+	height:40px;
+	margin:10px 0;
+}
+#bm_ws_updateOrderStatus .bm_con.title{
+	height:20px;
+}
+#bm_ws_updateOrderStatus span{
+	float:right;
+	margin:5px 10px 0 0;
+	cursor:pointer;
+}
+
+.bm_order_list_container{
+	max-width:100%;
+	min-width:960px;
+	width:100%;
+	overflow-x:auto;
+}
+#bm_order_list{
+	width:100%;
+	max-width:100%;
+	min-width:960px;
+}
+#bm_ws_settings input.error{
+	border:1px solid red;
+}
+.bm_active_lang_error, .bm_default_lang_error{
+	color:red;
+	display:none;
+}
+.first-time-notice{
+	display:none;
+}
+.bm-ws-form-table{
+	width:100%;
+	max-width:600px;
+}

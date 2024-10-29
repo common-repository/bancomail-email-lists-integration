@@ -1,0 +1,588 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bancomail Email Lists Integration\n"
+"POT-Creation-Date: 2017-03-17 13:04+0100\n"
+"PO-Revision-Date: 2017-04-06 17:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-WPHeader: bancomail-email-lists-integration.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/bm_webservice_admin_page.php:2
+msgid "Vendi ai tuoi client un Database profilato e garantito!"
+msgstr "Sell to your clients a profiled and guaranteed Database!"
+
+#: admin/bm_webservice_admin_page.php:3
+msgid "Benvenuto! Per iniziare a vendere devi registrarti come Partner di Bancomail: il programma per coloro che operano nel settore del Web Marketing. Ha molti vantaggi ed è gratuito. Una volta accreditato, abilita le tue credenziali dalla pagina Integrazione della tua Area Personale."
+msgstr "Welcome! To start selling you have to register as a Bancomail Partner: the program for those who work in the Web Marketing business. It has many advantages and it's free. Once accredited, enables your credentials from your Personal Area Integration page."
+
+#: admin/bm_webservice_admin_page.php:5
+msgid "Chiudi!"
+msgstr "Close!"
+
+#: admin/bm_webservice_admin_page.php:12
+msgid "Bancomail Email Lists Integration - Impostazioni"
+msgstr "Bancomail Email Lists Integration - Settings"
+
+#: admin/bm_webservice_admin_page.php:15
+msgid "Configura il Web Service"
+msgstr "General settings"
+
+#: admin/bm_webservice_admin_page.php:16
+msgid "Pagamenti"
+msgstr "Payments"
+
+#: admin/bm_webservice_admin_page.php:17
+msgid "Pagina del tuo negozio"
+msgstr "Your frontend page"
+
+#: admin/bm_webservice_admin_page.php:18
+msgid "Checkout"
+msgstr "Checkout"
+
+#: admin/bm_webservice_admin_page.php:25 admin/bm_webservice_admin_page.php:111
+#: admin/bm_webservice_admin_page.php:404
+msgid "I dati sono stati salvati con successo!"
+msgstr "The data were saved successfully!"
+
+#: admin/bm_webservice_admin_page.php:29 admin/bm_webservice_admin_page.php:115
+#: admin/bm_webservice_admin_page.php:408
+msgid "Si è verificato un errore!"
+msgstr "An error has occured!"
+
+#: admin/bm_webservice_admin_page.php:41
+msgid "Configura il Web Service di Bancomail inserendo le credenziali ricevute nell'email di conferma attivazione."
+msgstr "Setup  your connection to Bancomail Web Service  by entering the credentials you received in your email ."
+
+#: admin/bm_webservice_admin_page.php:41
+msgid "Non disponi delle credenziali?"
+msgstr "You don't have a username and password?"
+
+#: admin/bm_webservice_admin_page.php:45
+msgid "Indirizzo Email"
+msgstr "Email address"
+
+#: admin/bm_webservice_admin_page.php:49
+msgid "Password"
+msgstr "Password"
+
+#: admin/bm_webservice_admin_page.php:53
+msgid "Inserisci le credenziali di Test se stai provando il Web Service e non vuoi produrre ordini reali, ma ricordati di utilizzare le credenziali dell'ambiente di Produzione quando sei pronto per vendere!"
+msgstr "Enter your test environment credentials if you are testing the Web Service and you don't want to produce real purchases, but remember to use the credentials of the production environment when you're ready to sell!"
+
+#: admin/bm_webservice_admin_page.php:57
+msgid "Attiva lingua"
+msgstr "Active language"
+
+#: admin/bm_webservice_admin_page.php:60
+msgid "Italiano"
+msgstr "Italian"
+
+#: admin/bm_webservice_admin_page.php:61
+msgid "Inglese"
+msgstr "English"
+
+#: admin/bm_webservice_admin_page.php:62
+msgid "Francese"
+msgstr "French"
+
+#: admin/bm_webservice_admin_page.php:63
+msgid "Spagnolo"
+msgstr "Spanish"
+
+#: admin/bm_webservice_admin_page.php:64
+msgid "Tedesco"
+msgstr "German"
+
+#: admin/bm_webservice_admin_page.php:65
+msgid "Seleziona almeno una lingua."
+msgstr "Select at least one language."
+
+#: admin/bm_webservice_admin_page.php:69
+msgid "Lingua default"
+msgstr "Default language"
+
+#: admin/bm_webservice_admin_page.php:76
+msgid "La lingua default deve essere una tra le lingue attive."
+msgstr "The default language must be one of the active languages"
+
+#: admin/bm_webservice_admin_page.php:80
+msgid "Ricarico sulla vendita"
+msgstr "Mark-up"
+
+#: admin/bm_webservice_admin_page.php:82
+msgid "valore massimo consentito: 99"
+msgstr "Maximum value: 99"
+
+#: admin/bm_webservice_admin_page.php:84
+msgid "Il tuo guadagno"
+msgstr "Your profit"
+
+#: admin/bm_webservice_admin_page.php:85
+msgid "l’incremento sulle vendite si applica ai prezzi forniti di Bancomail e non viene mostrato al cliente. Al tuo costo invece vengono sempre applicati i tuoi sconti Partner."
+msgstr "your mark-up applies to the prices (VAT excl.) provided by Bancomail, which are hidden  to the customer and on which are  always applied your Partner discounts."
+
+#: admin/bm_webservice_admin_page.php:90
+msgid "IVA"
+msgstr "VAT"
+
+#: admin/bm_webservice_admin_page.php:92
+msgid "valore massimo consentito: 100"
+msgstr "Maximum value: 100"
+
+#: admin/bm_webservice_admin_page.php:120
+msgid "Personalizza il tuo negozio"
+msgstr "Customize your e-shop"
+
+#: admin/bm_webservice_admin_page.php:122
+msgid "Per ogni lingua, puoi impostare un header e un footer personalizzato. Le lingue mostrate nell’editor sono quelle abilitate nella sezione"
+msgstr "For each language, you can set a custom header and footer. The languages displayed in the editor are those you set up in the \"general setting\" tab."
+
+#: admin/bm_webservice_admin_page.php:123
+msgid " Configura il Web Service."
+msgstr "Click here to setup the web service connection."
+
+#: admin/bm_webservice_admin_page.php:123
+msgid "Puoi inserire codice html."
+msgstr "Html code is allowed"
+
+#: admin/bm_webservice_admin_page.php:136
+msgid "Titolo"
+msgstr "Title"
+
+#: admin/bm_webservice_admin_page.php:137
+msgid "Valore"
+msgstr "value"
+
+#: admin/bm_webservice_admin_page.php:149
+msgid " L’indirizzo del tuo negozio"
+msgstr "Url to frontend store"
+
+#: admin/bm_webservice_admin_page.php:156
+#: admin/bm_webservice_admin_page.php:339
+#: admin/bm_webservice_admin_page.php:428
+msgid "Seleziona la lingua"
+msgstr "Select language"
+
+#: admin/bm_webservice_admin_page.php:159
+#: admin/bm_webservice_admin_page.php:431
+msgid "Per favore imposta prima le"
+msgstr "Please setup your"
+
+#: admin/bm_webservice_admin_page.php:159
+#: admin/bm_webservice_admin_page.php:431
+msgid "lingue accettate"
+msgstr "accepted languages"
+
+#: admin/bm_webservice_admin_page.php:180
+msgid "Pagina - Header"
+msgstr "Page header "
+
+#: admin/bm_webservice_admin_page.php:182
+msgid "Questo contenuto viene mostrato sopra allo shop."
+msgstr "This content is displayed at the top of your frontend page"
+
+#: admin/bm_webservice_admin_page.php:183
+msgid "Crea il tuo database"
+msgstr "Create your database"
+
+#: admin/bm_webservice_admin_page.php:183
+msgid "Scegli la categoria e la locazione del tuo Target e trova i tuoi prossimi clienti!"
+msgstr "Choose the category and the location of your target and find your next customer!"
+
+#: admin/bm_webservice_admin_page.php:183
+#: admin/bm_webservice_admin_page.php:190
+#: admin/bm_webservice_admin_page.php:453
+#: admin/bm_webservice_admin_page.php:460
+#: admin/bm_webservice_admin_page.php:479
+#: admin/bm_webservice_admin_page.php:486
+msgid "Esempio:"
+msgstr "Example:"
+
+#: admin/bm_webservice_admin_page.php:187
+msgid "Pagina - Footer"
+msgstr "Page footer"
+
+#: admin/bm_webservice_admin_page.php:189
+msgid "Questo contenuto viene mostrato sotto allo shop."
+msgstr "This content is displayed at the bottom of your frontend page."
+
+#: admin/bm_webservice_admin_page.php:197
+#: admin/bm_webservice_admin_page.php:374
+#: admin/bm_webservice_admin_page.php:492
+msgid "Salva"
+msgstr "Save"
+
+#: admin/bm_webservice_admin_page.php:190
+msgid "Tutti i database sono coperti dalla  garanzia di validità dei dati e contengono anagrafiche complete, sempre comprensive di indirizzo email."
+msgstr "All databases are covered by the data validity guarantee and contain complete master data, always inclusive of email address."
+
+#: admin/bm_webservice_admin_page.php:218
+msgid "Impostazioni metodo di pagamento"
+msgstr "Payment settings"
+
+#: admin/bm_webservice_admin_page.php:219
+msgid "Seleziona i metodi di pagamento che vuoi attivare per i tuoi clienti"
+msgstr "Select the payment methods you want to enable for your customers"
+
+#: admin/bm_webservice_admin_page.php:222
+msgid "Nota che questo non identifica il tuo metodo di pagamento con Bancomail. Per completare l’ordine e ricevere la fornitura, potrai scegliere il tuo medoto preferito direttamente dai tuoi Ordini."
+msgstr "Please note that this doesn't identify your payment method on Bancomail. To complete the order and to receive the delivery, you can choose your favorite method directly from your 'Orders history' page."
+
+#: admin/bm_webservice_admin_page.php:228
+msgid "Attiva"
+msgstr "Activate"
+
+#: admin/bm_webservice_admin_page.php:229
+msgid "Metodo pagamento"
+msgstr "Payment method"
+
+#: admin/bm_webservice_admin_page.php:246
+#: admin/bm_webservice_admin_page.php:247
+#: admin/bm_webservice_admin_page.php:316
+msgid "Impostazioni"
+msgstr "Settings"
+
+#: admin/bm_webservice_admin_page.php:269
+msgid "Nome utente"
+msgstr "User name"
+
+#: admin/bm_webservice_admin_page.php:274
+msgid "L’indirizzo email associato al tuo account PayPal"
+msgstr "The email address associated with your PayPal account"
+
+#: admin/bm_webservice_admin_page.php:280
+msgid "Tipo di Account"
+msgstr "Account type"
+
+#: admin/bm_webservice_admin_page.php:283
+msgid "Seleziona"
+msgstr "Select"
+
+#: admin/bm_webservice_admin_page.php:288
+msgid "Se vuoi testare il funzionamento del Web Service puoi utilizzare un account Sandbox. Ricordati di selezionare Live mode quando il tuo negozio deve ricevere pagamenti reali."
+msgstr "For testing the functionality of the Web Service, you can use a Sandbox account. Remember to select Live mode when your store is up to receive real payments."
+
+#: admin/bm_webservice_admin_page.php:313
+msgid "Bonifico bancario"
+msgstr "Bank transfer"
+
+#: admin/bm_webservice_admin_page.php:363
+msgid "Istruzioni per il pagamento"
+msgstr "Payment instructions"
+
+#: admin/bm_webservice_admin_page.php:364
+msgid "Beneficiario, Coordinate bancarie, ecc"
+msgstr "Beneficiary bank details, etc."
+
+#: admin/bm_webservice_admin_page.php:365
+msgid "Inserisci le informazioni per il pagamento: saranno mostrate al tuo cliente nella pagina di conferma dell’ordine e nell’email."
+msgstr "Enter the payment information: will be shown to your customer in the order confirmation page and email."
+
+#: admin/bm_webservice_admin_page.php:366
+msgid "Ad esempio questo è lo spazio in cui puoi inserire i riferimenti bancari o l’indirizzo della tua sede per i pagamenti manuali."
+msgstr "For example this is the space where you can enter the bank details or the address of your headquarters for manual payments."
+
+#: admin/bm_webservice_admin_page.php:414
+msgid "Impostazioni Checkout"
+msgstr "Checkout settings"
+
+#: admin/bm_webservice_admin_page.php:415
+msgid "Qui puoi modificare l’esperienza di checkout modificando la pagina in cui il tuo cliente compila i suoi dati e l’email di conferma acquisto. I dati compilati dal tuo utente e quelli relativi al suo acquisto, saranno visibili nella tua"
+msgstr "Here you can change the checkout experience by modifying the page where your customer fill in the form and confirm the purchase . The data inserted by your user and those related to its purchase will be visible in your"
+
+#: admin/bm_webservice_admin_page.php:415
+msgid "pagina \"ordini\""
+msgstr "\"orders history\" page"
+
+#: admin/bm_webservice_admin_page.php:416
+msgid "Per ogni lingua, puoi personalizzare l’esperienza d’acquisto. Le lingue mostrate nell’editor sono quelle abilitate nella sezione Configura il Web Service. Puoi inserire codice html."
+msgstr "You can customize the shopping experience for each Language that you've set up in the \"general settings\" tab. Html code is allowed."
+
+#: admin/bm_webservice_admin_page.php:450
+msgid "Header pagina"
+msgstr "Page header"
+
+#: admin/bm_webservice_admin_page.php:452
+msgid "Questo contenuto viene mostrato sopra alla conferma dell'ordine."
+msgstr "This content is displayed at the top of your \"checkout\" page."
+
+#: admin/bm_webservice_admin_page.php:453
+msgid "Conferma ordine:"
+msgstr "Checkout page."
+
+#: admin/bm_webservice_admin_page.php:457
+msgid "Footer pagina"
+msgstr "Page footer"
+
+#: admin/bm_webservice_admin_page.php:459
+msgid "Questo contenuto viene mostrato sotto alla conferma dell'ordine."
+msgstr "This content is displayed at the bottom of your \"checkout\" page."
+
+#: admin/bm_webservice_admin_page.php:460
+msgid "Riceverai il tuo database entro massimo"
+msgstr "You will receive your database within a maximum"
+
+#: admin/bm_webservice_admin_page.php:464
+msgid "Condizioni di vendita"
+msgstr "Sale conditions"
+
+#: admin/bm_webservice_admin_page.php:466
+msgid "Questo contenuto viene mostrato sotto alla form della conferma dell’ordine e prevede l’accettazione da parte del tuo cliente. Puoi inserire qui le condizioni di vendita o la normativa sulla privacy."
+msgstr "This content is displayed in the form  order confirmation page and request the consent of your client. You can enter here the sale conditions or the Privacy Policy."
+
+#: admin/bm_webservice_admin_page.php:472
+msgid "L’email di conferma acquisto è inviata dall’indirizzo email impostato nella pagina di Wordpress"
+msgstr "The purchase confirmation email is sent from the email address set for the Wordpress administrator role"
+
+#: admin/bm_webservice_admin_page.php:476
+msgid "Email - Header"
+msgstr "Email - Header"
+
+#: admin/bm_webservice_admin_page.php:478
+msgid "Il testo d’apertura della tua email"
+msgstr "The opening text of your email"
+
+#: admin/bm_webservice_admin_page.php:479
+msgid "Gentile [CLIENT_NAME], grazie per il tuo ordine!"
+msgstr "Dear [CLIENT_NAME], thank you for your order!"
+
+#: admin/bm_webservice_admin_page.php:483
+msgid "Email - Footer"
+msgstr "Email - Footer"
+
+#: admin/bm_webservice_admin_page.php:485
+msgid "Es: Contattaci al numero de telefono +39... o al indirizzo email info@mail.com"
+msgstr "Example: Contact us at the phone number +39... or by email at info@mail.com"
+
+#: admin/bm_webservice_admin_page.php:486
+msgid "Per eventuali chiarimenti restiamo a tua disposizione al numero +39…. oppure via email all’indirizzo info@email.com"
+msgstr "For any question we are at your disposal at + 39 .... or by email at info@email.com"
+
+#: admin/bm_webservice_admin_page.php:501
+msgid "Per inserire il nome del cliente nella email di conferma, utilizza il tag [CLIENT_NAME]"
+msgstr "To print the customer's name in the confirmation email, use the tag [CLIENT_NAME]"
+
+#: admin/bm_webservice_admin_page.php:502
+msgid "Per inserire la ragione sociale del cliente nella email di conferma, utilizza il tag [CLIENT_COMPANY]"
+msgstr "To print the customer's  company name in the confirmation email, use the tag [CLIENT_COMPANY]"
+
+#: admin/bm_webservice_admin_page.php:503
+msgid "Per inserire il l'indirizzo del cliente nella email di conferma, utilizza il tag [CLIENT_LOCATION]"
+msgstr "To print the customer's address in the confirmation email, use the tag [CLIENT_LOCATION]"
+
+#: admin/bm_webservice_admin_page.php:504
+msgid "Per inserire il numero di telefono del cliente nella email di conferma, utilizza il tag [CLIENT_PHONE]"
+msgstr "To print the customer's phone number in the confirmation email, use the tag [CLIENT_PHONE]"
+
+#: admin/bm_webservice_ordini.php:2
+msgid "Bancomail Email Lists Integration - Ordini"
+msgstr "Bancomail Email Lists Integration - Order history"
+
+#: admin/bm_webservice_ordini.php:4
+msgid "In questa pagina puoi gestire lo stato delle tue vendite."
+msgstr "On this page you can manage your  sales."
+
+#: admin/bm_webservice_ordini.php:5
+msgid "Attenzione: per richiedere la fornitura dei database acquistati dai tuoi clienti, dovrai effettuare a Neosoft Srl - Bancomail il pagamento del tuo prezzo Partner. Puoi farlo attraverso il pulsante Paga nella colonna Azioni."
+msgstr "Warning: to request the supply of your customers purchased database, first, you must pay to Neosoft Srl - Bancomail by clicking he \"Pay\" link in the \"Action\" column."
+
+#: admin/bm_webservice_ordini.php:12
+msgid "Data"
+msgstr "Data"
+
+#: admin/bm_webservice_ordini.php:13
+msgid "Cliente"
+msgstr "Client"
+
+#: admin/bm_webservice_ordini.php:14
+msgid "Ragione sociale"
+msgstr "Company name"
+
+#: admin/bm_webservice_ordini.php:15
+msgid "Contatti"
+msgstr "Contacts"
+
+#: admin/bm_webservice_ordini.php:16
+msgid "La tua vendita<br/>(iva incl.)"
+msgstr "Your sales <br/> (VAT incl.)"
+
+#: admin/bm_webservice_ordini.php:17
+msgid "Il tuo prezzo Partner"
+msgstr "Your Partner price"
+
+#: admin/bm_webservice_ordini.php:17 admin/bm_webservice_ordini.php:74
+#: admin/bm_webservice_ordini.php:75
+msgid "(iva incl.)"
+msgstr "(VAT included)"
+
+#: admin/bm_webservice_ordini.php:18
+msgid "Metodo di pagamento"
+msgstr "Payment method"
+
+#: admin/bm_webservice_ordini.php:19
+msgid "Stato del ordine"
+msgstr "Order status"
+
+#: admin/bm_webservice_ordini.php:20
+msgid "Azioni"
+msgstr "Actions"
+
+#: admin/bm_webservice_ordini.php:40
+msgid "(ordine di test)"
+msgstr "(test order)"
+
+#: admin/bm_webservice_ordini.php:46
+msgid "Visualizza dettagli"
+msgstr "Show details"
+
+#: admin/bm_webservice_ordini.php:46
+msgid "IN ATTESA"
+msgstr "PENDING"
+
+#: admin/bm_webservice_ordini.php:46
+msgid "ANNULLATO"
+msgstr "CANCELLED"
+
+#: admin/bm_webservice_ordini.php:46
+msgid "PAGATO"
+msgstr "PAID"
+
+#: admin/bm_webservice_ordini.php:46
+msgid "NON PAGATO"
+msgstr "UNPAID"
+
+#: admin/bm_webservice_ordini.php:49
+msgid "Paga"
+msgstr "Pay"
+
+#: admin/bm_webservice_ordini.php:55
+msgid "Riepilogo Carrello"
+msgstr "Cart summary"
+
+#: admin/bm_webservice_ordini.php:58
+msgid "totale anagrafiche"
+msgstr "total records"
+
+#: admin/bm_webservice_ordini.php:59
+msgid "prezzo listino (iva escl.)"
+msgstr "list price (VAT excl.)"
+
+#: admin/bm_webservice_ordini.php:60
+msgid "sconto di listino"
+msgstr "Bancomail discount"
+
+#: admin/bm_webservice_ordini.php:61
+msgid "ricarico"
+msgstr "your mark-up"
+
+#: admin/bm_webservice_ordini.php:72
+msgid "Totale (iva escl.)"
+msgstr "Total price (VAT excl.)"
+
+#: admin/bm_webservice_ordini.php:74
+msgid "Totale anagrafiche:"
+msgstr "Total records:"
+
+#: admin/bm_webservice_ordini.php:74
+msgid "La tua vendita"
+msgstr "Your sale"
+
+#: admin/bm_webservice_ordini.php:74
+msgid "Prezzo di listino:"
+msgstr "List Price:"
+
+#: admin/bm_webservice_ordini.php:74 admin/bm_webservice_ordini.php:75
+msgid "(iva escl.)"
+msgstr "(VAT excl.)"
+
+#: admin/bm_webservice_ordini.php:75
+msgid "Sconto partner:"
+msgstr "Partner discount:"
+
+#: admin/bm_webservice_ordini.php:75
+msgid "Importo partner"
+msgstr "Partner amount"
+
+#: admin/bm_webservice_ordini.php:76
+msgid "Totale (iva incl.)"
+msgstr "Total price (VAT included)"
+
+#: admin/bm_webservice_ordini.php:76
+msgid "Il totale della tua vendita è ottenuto dal calcolo  [(prezzo di listino - sconto di listino) + ricarico] + iva applicata dal tuo negozio"
+msgstr "The total of your sale is obtained by calculating [(list price - bancomail discount) + your mark-up] + VAT applied by your shop"
+
+#: admin/bm_webservice_ordini.php:76
+msgid "L'importo Partner è ottenuto dal calcolo [(prezzo listino - sconto di listino - sconto partner) + iva applicata da Bancomail]"
+msgstr "The Partner amount is obtained by calculating [(list price - Bancomail discount - Partner discount) + VAT applied by Bancomail]"
+
+#: admin/bm_webservice_ordini.php:77
+msgid "iva applicata dal tuo negozio:"
+msgstr "VAT applied by your shop"
+
+#: admin/bm_webservice_ordini.php:89
+msgid "Nessun ordine da mostrare!"
+msgstr "No orders to display!"
+
+#: admin/bm_webservice_ordini.php:96
+msgid "Se applicata dal tuo profilo di fatturazione"
+msgstr "If applied by your billing profile"
+
+#: admin/bm_webservice_ordini.php:98
+msgid "PAGATO = Se il tuo cliente paga con Paypal e ritorna sul tuo sito allora l’acquisto viene segnato automaticamente come Pagato. Puoi comunque definire manualmente come Pagato qualunque altro stato in cui si trovi un ordine, ad esempio quando il tuo cliente paga con Bonifico."
+msgstr "PAID = If your customer pays through Paypal and return to your site then the purchase is automatically marked as Paid. You can manually define as Paid any other status where you can find an order, for example, when your customer pays by Bank transfer."
+
+#: admin/bm_webservice_ordini.php:99
+msgid "NON PAGATO = Identifica un pagamento con PayPal non confermato. Ricordati di controllare il tuo saldo PayPal e confermare il pagamento, una volta ricevuta la somma."
+msgstr "UNPAID = Identifies a non confirmed payment with PayPal. Remember to check your PayPal balance and confirm the payment if it was concluded ."
+
+#: admin/bm_webservice_ordini.php:100
+msgid "IN ATTESA = Identifica un pagamento tramite Bonifico. Ricordati di confermare il pagamento, una volta ricevuta la somma."
+msgstr "PENDING = Identifies a payment via bank transfer. Remember to confirm the payment, after receiving the sum."
+
+#: admin/bm_webservice_ordini.php:101
+msgid "ANNULLATO = Identifica un pagamento con PayPal annullato dal tuo cliente."
+msgstr "CANCELLED = Identifies a payment with PayPal canceled by your client."
+
+#: admin/bm_webservice_ordini.php:156
+msgid "Stai per cambiare lo stato dell'ordine:"
+msgstr "You are about to change the status of the order:"
+
+#: admin/bm_webservice_ordini.php:158
+msgid "Seleziona lo stato"
+msgstr "Select status"
+
+#. Plugin Name of the plugin/theme
+#: bancomail-email-lists-integration.php:239
+msgid "Bancomail Email Lists Integration"
+msgstr "Bancomail Email Lists Integration"
+
+#: bancomail-email-lists-integration.php:241
+msgid "Ordini"
+msgstr "Orders history"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.bancomail.it"
+msgstr "https://www.bancomail.com"
+
+#. Description of the plugin/theme
+msgid "A plugin that integrate Bancomail's products into wp"
+msgstr "A plugin that integrate Bancomail's products into wp"
+
+#. Author of the plugin/theme
+msgid "Neosoft s.r.l."
+msgstr "Neosoft s.r.l."
+
+#. Author URI of the plugin/theme
+msgid "http://neosoft.it"
+msgstr "http://neosoft.it"
